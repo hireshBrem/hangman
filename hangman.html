@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+    <h2>HANGMAN <br>VANILLA JAVASCRIPT HANGMAN GAME</h2>
+    <h3>Use the alphabet below to guess the word, or click hint to get a clue.</h3>
+    <div id="alphabet-btns">
+        <button class="btns" id="a">a</button>
+        <button class="btns" id="b">b</button>
+        <button class="btns" id="c">c</button>
+        <button class="btns" id="d">d</button>
+        <button class="btns" id="e">e</button>
+        <button class="btns" id="f">f</button>
+        <button class="btns" id="g">g</button>
+        <button class="btns" id="h">h</button>
+        <button class="btns" id="i">i</button>
+        <button class="btns" id="j">j</button>
+        <button class="btns" id="k">k</button>
+        <button class="btns" id="l">l</button>
+        <button class="btns" id="m">m</button>
+        <button class="btns" id="n">n</button>
+        <button class="btns" id="o">o</button>
+        <button class="btns" id="p">p</button>
+        <button class="btns" id="q">q</button>
+        <button class="btns" id="r">r</button>
+        <button class="btns" id="s">s</button>
+        <button class="btns" id="t">t</button>
+        <button class="btns" id="u">u</button>
+        <button class="btns" id="v">v</button>
+        <button class="btns" id="w">w</button>
+        <button class="btns" id="x">x</button>
+        <button class="btns" id="y">y</button>
+        <button class="btns" id="z">z</button>
+    </div>
+    <h3 id="hint">The Chosen Category Is -----</h3>
+    <h4 id="missing-word"></h4>
+    <h3 id="lives">You have 10 lives</h3>
+    <h2 id="message"></h2>
+    <script src="hangman.js"></script>
+</body>
+</html>
